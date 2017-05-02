@@ -20,7 +20,7 @@ import com.bucuoa.west.orm.core.ExecuteManager;
 import com.bucuoa.west.orm.core.base.IdObject;
 import com.bucuoa.west.orm.core.converter.ClassObjectConverter;
 import com.bucuoa.west.orm.core.mapping.SQLFactory;
-import com.bucuoa.west.orm.core.uitls.AnnoationUtil;
+import com.bucuoa.west.orm.core.utils.AnnoationUtil;
 
 public abstract class WestCommonDao<T, PK extends Serializable> {
 	Logger logger = LoggerFactory.getLogger(this.getClass());

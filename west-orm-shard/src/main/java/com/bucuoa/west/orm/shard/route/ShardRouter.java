@@ -1,7 +1,7 @@
 package com.bucuoa.west.orm.shard.route;
 
 import com.bucuoa.west.orm.core.base.AlgorithemEnum;
-import com.bucuoa.west.orm.core.uitls.WStringUtils;
+import com.bucuoa.west.orm.core.utils.WStringUtils;
 import com.bucuoa.west.orm.shard.ShardInfo;
 import com.bucuoa.west.orm.shard.algorithm.IAlgorithm;
 import com.bucuoa.west.orm.shard.algorithm.ShardResult;

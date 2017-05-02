@@ -1,4 +1,4 @@
-package com.bucuoa.west.orm.core.uitls;
+package com.bucuoa.west.orm.core.utils;
 
 import java.beans.IntrospectionException;
 import java.beans.PropertyDescriptor;

@@ -1,3 +1,4 @@
+package com.bucuoa.west.orm.core.utils;
 ///**
 // * Copyright (c) 2005-2012 springside.org.cn
 // */

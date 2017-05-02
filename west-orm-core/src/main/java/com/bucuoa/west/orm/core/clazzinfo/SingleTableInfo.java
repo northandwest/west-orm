@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import com.bucuoa.west.orm.core.converter.ClassObjectConverter;
-import com.bucuoa.west.orm.core.uitls.AnnoationUtil;
+import com.bucuoa.west.orm.core.utils.AnnoationUtil;
 import com.bucuoa.west.orm.shard.holder.DbShardHolder;
 
 public class SingleTableInfo extends BaseTableInfo implements ITableInfo {

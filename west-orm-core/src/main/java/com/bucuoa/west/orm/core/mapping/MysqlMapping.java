@@ -20,7 +20,7 @@ import com.bucuoa.west.orm.core.mapping.sqlbuilder.DeleteBuilder;
 import com.bucuoa.west.orm.core.mapping.sqlbuilder.InsertBuilder;
 import com.bucuoa.west.orm.core.mapping.sqlbuilder.SelectBuilder;
 import com.bucuoa.west.orm.core.mapping.sqlbuilder.UpdateBuilder;
-import com.bucuoa.west.orm.core.uitls.WStringUtils;
+import com.bucuoa.west.orm.core.utils.WStringUtils;
 
 public class MysqlMapping implements Mapping {
 	Logger logger = LoggerFactory.getLogger(this.getClass());

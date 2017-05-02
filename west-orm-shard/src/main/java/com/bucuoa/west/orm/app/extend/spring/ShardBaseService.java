@@ -1,4 +1,4 @@
-package com.bucuoa.west.orm.app.extend.shard;
+package com.bucuoa.west.orm.app.extend.spring;
 
 import java.io.Serializable;
 import java.util.List;
@@ -9,6 +9,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.bucuoa.west.orm.app.common.Expression;
 import com.bucuoa.west.orm.app.common.OrderBy;
 import com.bucuoa.west.orm.app.common.WPage;
+import com.bucuoa.west.orm.app.extend.shard.IShardBaseDao;
 
 @Service
 public abstract class ShardBaseService<T, PK extends Serializable> {

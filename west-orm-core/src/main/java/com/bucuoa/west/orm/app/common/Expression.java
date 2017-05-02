@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.bucuoa.west.orm.core.uitls.WStringUtils;
+import com.bucuoa.west.orm.core.utils.WStringUtils;
 /**
  * 表达式类
  * 可以嵌套表达式

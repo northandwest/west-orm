@@ -13,7 +13,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.bucuoa.west.orm.core.converter.DBObjectConverter;
-import com.bucuoa.west.orm.core.uitls.AnnoationUtil;
+import com.bucuoa.west.orm.core.utils.AnnoationUtil;
 import com.bucuoa.west.orm.shard.holder.DbMasterOrSlaveHolder;
 
 /**

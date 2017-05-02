@@ -15,7 +15,7 @@ import org.slf4j.LoggerFactory;
 
 import com.bucuoa.west.orm.core.base.AnnoationStopWord;
 import com.bucuoa.west.orm.core.clazzinfo.ITableInfo;
-import com.bucuoa.west.orm.core.uitls.WStringUtils;
+import com.bucuoa.west.orm.core.utils.WStringUtils;
 
 public class ClassObjectConverter {
 	static	Logger logger = LoggerFactory.getLogger(ClassObjectConverter.class);

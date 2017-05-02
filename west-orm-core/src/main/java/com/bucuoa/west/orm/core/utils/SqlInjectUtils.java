@@ -1,4 +1,4 @@
-package com.bucuoa.west.orm.core.uitls;
+package com.bucuoa.west.orm.core.utils;
 
 public class SqlInjectUtils {
 	public static String filterSql(String str)

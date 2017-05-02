@@ -2,7 +2,7 @@ package com.bucuoa.west.orm.core.converter;
 
 import java.util.Date;
 
-import com.bucuoa.west.orm.core.uitls.WStringUtils;
+import com.bucuoa.west.orm.core.utils.WStringUtils;
 
 public class TypeConvert {
 

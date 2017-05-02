@@ -15,7 +15,7 @@ import org.slf4j.LoggerFactory;
 
 import com.bucuoa.west.orm.core.base.AnnoationStopWord;
 import com.bucuoa.west.orm.core.base.IdObject;
-import com.bucuoa.west.orm.core.uitls.AnnoationUtil;
+import com.bucuoa.west.orm.core.utils.AnnoationUtil;
 
 public abstract class BaseTableInfo {
 	final Logger logger = LoggerFactory.getLogger(BaseTableInfo.class);

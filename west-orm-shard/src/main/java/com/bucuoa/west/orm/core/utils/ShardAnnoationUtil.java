@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
 
 import com.bucuoa.west.orm.app.extend.shard.BaseShardEntity;
 import com.bucuoa.west.orm.core.base.AnnoationStopWord;
-import com.bucuoa.west.orm.core.uitls.AnnoationUtil;
+import com.bucuoa.west.orm.core.utils.AnnoationUtil;
 import com.bucuoa.west.orm.shard.ShardInfo;
 import com.bucuoa.west.orm.shard.annonation.ShardKey;
 import com.bucuoa.west.orm.shard.annonation.ShardTable;

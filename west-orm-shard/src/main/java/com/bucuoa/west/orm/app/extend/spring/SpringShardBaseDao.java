@@ -19,7 +19,7 @@ import com.bucuoa.west.orm.app.common.WPage;
 import com.bucuoa.west.orm.core.ExecuteManager;
 import com.bucuoa.west.orm.core.converter.ClassObjectConverter;
 import com.bucuoa.west.orm.core.mapping.SQLFactory;
-import com.bucuoa.west.orm.core.uitls.AnnoationUtil;
+import com.bucuoa.west.orm.core.utils.AnnoationUtil;
 
 /**
  * west和应用的接口类 项目只需要继承本类就可以实现west提供的功能 用户也可以自己实现本类 只需要注入ExcetueManager即可
