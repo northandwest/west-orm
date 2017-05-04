@@ -14,7 +14,7 @@ import com.bucuoa.west.orm.app.extend.shard.IShardBaseDao;
 @Service
 public abstract class ShardBaseService<T, PK extends Serializable> {
 
-	public abstract IShardBaseDao<T, PK> getDao();
+	public abstract IShardBaseDao<T, PK > getDao();
 
 	@Transactional
 	public T saveEntity(T entity) throws Exception {
@@ -36,7 +36,7 @@ public abstract class ShardBaseService<T, PK extends Serializable> {
 		return getDao().deleteEntityBy(entity);
 	}
 	
-	public <T> List<T> findListBy(T t) throws Exception{
+	public List<T> findListBy(T t) throws Exception{
 		return getDao().findListBy(t);
 	}
 	

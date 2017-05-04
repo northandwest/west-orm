@@ -3,7 +3,7 @@
   <parent>
     <groupId>com.bucuoa.west</groupId>
     <artifactId>west-orm</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.4.1-SNAPSHOT</version>
   </parent>
   <artifactId>west-orm-shard</artifactId>
   
@@ -11,8 +11,7 @@
 	<dependency>
 			<groupId>com.bucuoa.west</groupId>
 			<artifactId>west-orm-core</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-			<scope>compile</scope>
+			<version>0.4.1-SNAPSHOT</version>
 		</dependency>
   </dependencies>
 </project>

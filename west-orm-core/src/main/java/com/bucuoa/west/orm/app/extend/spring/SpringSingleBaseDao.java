@@ -1,5 +1,6 @@
 package com.bucuoa.west.orm.app.extend.spring;
 
+import java.io.Serializable;
 import java.lang.reflect.ParameterizedType;
 import java.sql.Connection;
 import java.util.List;
@@ -24,7 +25,7 @@ import com.bucuoa.west.orm.core.utils.AnnoationUtil;
  * @author jake
  */
 @Component
-public class SpringSingleBaseDao<T, PK> extends BaseDao<T,PK> {
+public class SpringSingleBaseDao<T, PK extends Serializable> extends BaseDao<T,PK> {
 	Logger logger = LoggerFactory.getLogger(this.getClass());
 	@Autowired
 	protected ExecuteManager<T, PK> excetueManager;

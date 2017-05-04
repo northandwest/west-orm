@@ -3,7 +3,7 @@ package com.bucuoa.west.orm.app.extend;
 import java.io.Serializable;
 import java.util.List;
 
-public interface IBaseDao<T, PK> {
+public interface IBaseDao<T, PK  extends Serializable> {
 
 	T saveEntity(T entity) throws Exception;
 

@@ -22,7 +22,7 @@ import com.bucuoa.west.orm.core.converter.ClassObjectConverter;
 import com.bucuoa.west.orm.core.mapping.SQLFactory;
 import com.bucuoa.west.orm.core.utils.AnnoationUtil;
 
-public  class BaseDao<T, PK> {
+public  class BaseDao<T, PK   extends Serializable> {
 	Logger logger = LoggerFactory.getLogger(this.getClass());
 	
 	protected String getTablePKField(Class<T> classz) {
