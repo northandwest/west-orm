@@ -26,7 +26,7 @@ import com.bucuoa.west.orm.core.utils.AnnoationUtil;
  * 
  * @author jake
  */
-public abstract class MutiliDataSourceSpringSingleBaseDao<T, PK extends Serializable> {
+public abstract class MutiliDataSourceSpringSingleBaseDao<T, PK> {
 	Logger logger = LoggerFactory.getLogger(this.getClass());
 
 	public abstract ExecuteManager<T, PK> getExcetueManager() ;

@@ -8,7 +8,7 @@ import com.bucuoa.west.orm.app.common.Expression;
 import com.bucuoa.west.orm.app.common.OrderBy;
 import com.bucuoa.west.orm.app.common.WPage;
 
-public interface ISingleBaseDao<T, PK extends Serializable> extends IBaseDao<T, PK> {
+public interface ISingleBaseDao<T, PK> extends IBaseDao<T, PK> {
 
 	T findEntityById(PK id) throws Exception;
 
