@@ -2,3 +2,6 @@
 单机版本和分库分表版本分离
 多数据源版本
 实体可以指定一个数据源，从而实现多个库可以同一个项目合理调用。
+
+MutiliDataSourceSpringSingleBaseDao
+此类支持在dao层注入 ExecuteManager. 这样当一个系统里有多个数据库的时候可以自动的路由
