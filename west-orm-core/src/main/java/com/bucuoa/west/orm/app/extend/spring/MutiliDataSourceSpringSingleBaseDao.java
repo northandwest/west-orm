@@ -180,7 +180,7 @@ public abstract class MutiliDataSourceSpringSingleBaseDao<T, PK extends Serializ
 	}
 
 	@SuppressWarnings({ "unchecked" })
-	public <T> List<T> findListBy(T t) throws Exception {
+	public List<T> findListBy(T t) throws Exception {
 
 		Class<T> classz2 = (Class<T>) this.classz;
 
